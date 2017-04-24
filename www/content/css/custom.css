@@ -1,0 +1,502 @@
+
+.title-page-cover{
+	font-family: 'Antenna';
+	margin:0px;
+	font-size: 32px;
+  color:#d1252a;
+}
+.title-page-cover-last{
+	font-family: 'Antenna';
+	margin:0px;
+	font-size: 18px;
+  letter-spacing: 1px;
+  color:red;
+}
+.title-page-cover-second{
+	font-family: 'AntennaCond';
+	font-size: 12px;
+	color:#004d7d;
+	font-weight:600;
+}
+
+.page-head{
+	position: absolute;
+	margin-left: 5%;
+	top:10px;
+	font-family:'Gotham';
+	font-weight: 100;
+	font-size: 30px;
+	line-height: 30px;
+	color:#222;
+}
+
+.page-head-ctn{
+	font-family:'Gotham';
+	font-weight: 100;
+	font-size: 50px;
+	line-height: 37px;
+	color:#222;
+	text-align: right;
+	padding-right: 20px;
+	margin-bottom:20px
+}
+
+.chevron-menu{
+	color:#96979b;
+}
+
+.page-menu{
+	font-family: 'Antenna';
+	font-size:14px;
+	font-weight: 600;
+	color:#222;
+	margin-left: 15px;
+}
+
+.page-menu-nu{
+	font-family: 'AntennaCond';
+	font-size:9px;
+	color:#888;
+	margin-left: 27px;
+	display: block;
+}
+
+.contributor{
+	font-family: 'AntennaCond';
+	font-size:10px;
+	color:#000;
+	font-weight: 600;
+	display: block;
+}
+
+.contributor-list{
+	font-family: 'AntennaCond';
+	font-size:10px;
+	color:#000;
+	font-weight: 300;
+	display: block;
+}
+
+.contributor-note{
+	font-family: 'AntennaCond';
+	font-size:10px;
+	color:#FFF;
+	font-weight: 300;
+	display: block;
+	background-color: #888;
+}
+
+.float-letter{
+	font-family: 'Slant';
+  font-size: 90px;
+  float: left;
+  color: #b8926c;
+  padding-right: 10px;
+  line-height: 58px;
+}
+
+.content-text-no-indent{
+	line-height: normal;
+  font-family: 'pt-sans';
+  font-size: 11px;
+}
+
+.content-text{
+	line-height: normal;
+	text-indent: 15px;
+  font-family: 'pt-sans';
+  font-size: 11px;
+}
+
+.content-text-block{
+	line-height: normal;
+  font-family: 'pt-sans';
+	color: #fff;
+  font-size: 12px;
+	background-color: #7e563e;
+	padding: 10px;
+}
+
+.content-author{
+	font-family: 'blacksword';
+	color:#000;
+	font-size: initial;
+	text-align: center;
+	margin-top: 10px;
+}
+
+.content-author-sub{
+	font-family: 'pt-sans';
+	color:#000;
+	font-size: 10px;
+	text-align: center;
+	margin-top: 10px;
+}
+
+.title-page-two{
+	font-family:'AntennaCond';
+	font-size:20px;
+	font-weight:100;
+	line-height:20px;
+}
+
+.title-page-two-line-two{
+	font-weight:500;
+	font-size:24px;
+}
+
+.title-page-two-line-three{
+	font-weight:300;
+	font-size:15px
+}
+
+.tirta{
+	width:200px;
+	position:absolute;
+	bottom:0px;
+	right:0;
+	z-index:1
+}
+
+.title-alternative{
+	font-family: 'gabo-drive';
+  color: #fff;
+  font-size: 35px;
+  line-height: 30px;
+}
+
+.subtitle-alternative{
+	font-family: 'antenna';
+  font-size: 12px;
+	display: block;
+	margin-top: 20px;
+}
+
+.subtitle-alternative-tablet{
+	font-family: 'antenna';
+  color: #fff;
+  font-size: 12px;
+	display: block;
+	margin-top: 20px;
+}
+
+
+
+/*landscape*/
+@media screen and (orientation : landscape){
+	.tirta{
+		width:150px;
+		position:absolute;
+		bottom:0px;
+		right:0;
+		z-index:1
+	}
+	.content-author{
+		text-align: left;
+	}
+	.content-author-sub{
+		text-align: left;
+	}
+	.subtitle-alternative{
+		display: none;
+	}
+}
+
+@media screen and (orientation : potrait){
+	.subtitle-alternative-tablet{
+		display: none;
+	}
+}
+
+/*iphone5*/
+@media screen and (device-aspect-ratio: 320/568) {
+	.contributor{
+		font-family: 'AntennaCond';
+		font-size:8px;
+		color:#000;
+		font-weight: 600;
+		display: block;
+	}
+
+	.contributor-list{
+		font-family: 'AntennaCond';
+		font-size:7px;
+		color:#000;
+		font-weight: 300;
+		display: block;
+	}
+
+
+	.content-text-no-indent{
+		line-height: normal;
+	  font-family: 'pt-sans';
+	  font-size: 9px;
+	}
+
+	.content-text{
+		line-height: normal;
+		text-indent: 15px;
+	  font-family: 'pt-sans';
+	  font-size: 9px;
+	}
+
+	.content-text-block{
+		line-height: normal;
+	  font-family: 'pt-sans';
+		color: #fff;
+	  font-size: 10px;
+		background-color: #7e563e;
+		padding: 10px;
+	}
+
+	.content-author{
+		font-family: 'Blackswords'
+		color:#000;
+		font-size: 10px;
+	}
+	.content-author-sub{
+		font-family: 'pt-sans';
+		color:#000;
+		font-size: 10px;
+		text-align: center;
+		margin-top: 8px;
+	}
+	.title-page-two{
+		font-family:'AntennaCond';
+		font-size:15px;
+		font-weight:100;
+		line-height:15px;
+	}
+
+	.title-page-two-line-two{
+		font-weight:500;
+		font-size:18px;
+	}
+
+	.title-page-two-line-three{
+		font-weight:300;
+		font-size:15px
+	}
+
+	.tirta{
+		width:160px;
+		position:absolute;
+		bottom:0px;
+		right:0;
+		z-index:1
+	}
+
+	.title-alternative{
+		font-family: 'gabo-drive';
+	  color: #fff;
+	  font-size: 30px;
+	  line-height: 26px;
+	}
+
+	.subtitle-alternative{
+		font-family: 'antenna';
+	  font-size: 10px;
+		display: block;
+		margin-top: 20px;
+	}
+}
+
+
+/*iphone6*/
+@media screen and (device-aspect-ratio: 375/667) {
+	.page-menu{
+		font-family: 'Antenna';
+		font-size:15px;
+		font-weight: 600;
+		color:#222;
+		margin-left: 15px;
+	}
+
+	.page-menu-nu{
+		font-family: 'AntennaCond';
+		font-size:11px;
+		color:#888;
+		margin-left: 27px;
+		display: block;
+	}
+}
+
+/*iphone6plus*/
+
+@media screen and (device-aspect-ratio: 414/736) {
+	p{
+		font-size: 14px;
+	}
+	.page-menu{
+		font-family: 'Antenna';
+		font-size:24px;
+		font-weight: 600;
+		color:#222;
+		margin-left: 15px;
+	}
+
+	.page-menu-nu{
+		font-family: 'AntennaCond';
+		font-size:12px;
+		color:#888;
+		margin-left: 27px;
+		display: block;
+	}
+
+	.content-text-no-indent{
+		line-height: normal;
+	  font-family: 'pt-sans';
+	  font-size: 12px;
+	}
+
+	.content-text{
+		line-height: normal;
+		text-indent: 15px;
+	  font-family: 'pt-sans';
+	  font-size: 12px;
+	}
+
+	.content-text-block{
+		line-height: normal;
+	  font-family: 'pt-sans';
+		color: #fff;
+	  font-size: 11px;
+		background-color: #7e563e;
+		padding: 10px;
+	}
+
+	.content-author{
+		font-family: 'Blackswords'
+		color:#000;
+		font-size: 11px;
+	}
+	.content-author-sub{
+		font-family: 'pt-sans';
+		color:#000;
+		font-size: 11px;
+		text-align: center;
+		margin-top: 8px;
+	}
+}
+
+
+/*GalaxyNote*/
+@media screen and (device-aspect-ratio: 360/640) {
+	.page-menu{
+		font-family: 'Antenna';
+		font-size:14px;
+		font-weight: 600;
+		color:#222;
+		margin-left: 15px;
+	}
+
+	.page-menu-nu{
+		font-family: 'AntennaCond';
+		font-size:10px;
+		color:#888;
+		margin-left: 27px;
+		display: block;
+	}
+
+	.tirta{
+		width:200px;
+		position:absolute;
+		bottom:0px;
+		right:0;
+		z-index:1
+	}
+}
+
+/*ipad*/
+@media screen and (device-aspect-ratio: 3/4) {
+	p{
+		font-size: 20px;
+	}
+	.title-page-cover{
+		font-family: 'Antenna';
+		margin:0px;
+		font-size: 45px;
+	  color:#d1252a;
+	}
+	.title-page-cover-last{
+		font-family: 'Antenna';
+		margin:0px;
+		font-size: 40px;
+	  letter-spacing: 2px;
+	  color:red;
+	}
+	.title-page-cover-second{
+		font-family: 'AntennaCond';
+		font-size: 40px;
+	}
+	.page-menu{
+		font-size:20px;
+	}
+
+	.page-menu-nu{
+		font-size:20px;
+	}
+
+	.contributor{
+		font-size:20px;
+	}
+
+	.contributor-list{
+		font-size:15px;
+	}
+
+	.contributor-note{
+		font-size:15px;
+	}
+
+	.content-text-no-indent{
+	  font-size: 20px;
+	}
+
+	.content-text{
+		text-indent: 15px;
+	  font-size: 20px;
+	}
+
+	.content-text-block{
+	  font-size: 18px;
+		padding: 20px;
+	}
+
+	.content-author{
+		font-size: 18px;
+	}
+	.content-author-sub{
+		font-size: 18px;
+		margin-top: 16px;
+	}
+
+
+	.title-page-two{
+		font-family:'AntennaCond';
+		font-size:30px;
+		font-weight:100;
+		line-height:30px;
+	}
+
+	.title-page-two-line-two{
+		font-weight:500;
+		font-size:35px;
+	}
+
+	.title-page-two-line-three{
+		font-weight:300;
+		font-size:30px
+	}
+	.tirta{
+		width:300px;
+		position:absolute;
+		bottom:0px;
+		right:0;
+		z-index:1
+	}
+
+	.hidden-tablet{
+		display: none;
+	}
+}
