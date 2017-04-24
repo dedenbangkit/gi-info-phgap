@@ -82,10 +82,10 @@ angular.module('starter.controllers', [])
       console.log('Modal is shown!');
     });
 
-    $scope.imageSrc = 'img/help.png';
+    $scope.imageSrc = 'img/help.jpg';
 
     $scope.showImage = function() {
-      $scope.imageSrc  = 'img/help.png';
+      $scope.imageSrc  = 'img/help.jpg';
       $scope.openModal();
     }
 
