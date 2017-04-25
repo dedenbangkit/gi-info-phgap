@@ -649,66 +649,6 @@
 	}
 }
 
-/*Galaxy s5*/
-@media screen and (device-aspect-ratio: 360/640){
-	p{
-		font-size: 14px;
-	}
-	.page-menu{
-		font-family: 'Antenna';
-		font-size:24px;
-		font-weight: 600;
-		color:#222;
-		margin-left: 15px;
-	}
-
-	.page-menu-nu{
-		font-family: 'AntennaCond';
-		font-size:12px;
-		color:#888;
-		margin-left: 27px;
-		display: block;
-	}
-
-	.content-text-no-indent{
-		line-height: normal;
-	  font-family: 'pt-sans';
-	  font-size: 12px;
-	}
-
-	.content-text{
-		line-height: normal;
-		text-indent: 15px;
-	  font-family: 'pt-sans';
-	  font-size: 12px;
-	}
-
-	.content-text-block{
-		line-height: normal;
-	  font-family: 'pt-sans';
-		color: #fff;
-	  font-size: 11px;
-		background-color: #7e563e;
-		padding: 10px;
-	}
-
-	.content-author{
-		font-family: 'Blackswords'
-		color:#000;
-		font-size: 11px;
-	}
-	.content-author-sub{
-		font-family: 'pt-sans';
-		color:#000;
-		font-size: 11px;
-		text-align: center;
-		margin-top: 8px;
-	}
-
-	.title-page-cover-second{
-		font-size: 10px;
-	}
-}
 
 @media screen and (device-aspect-ratio: 1280/720) and (orientation : landscape) {
 	.hidden-sm{
