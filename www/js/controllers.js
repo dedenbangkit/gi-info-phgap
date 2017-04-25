@@ -45,7 +45,8 @@ angular.module('starter.controllers', [])
 .controller('IssuesCtrl', function($scope) {
   $scope.Issues = [
     { title: 'Issue #61', date:'2017-02-24', desc:'Memajukan Pesantren Melalui Digitalisasi', cover: 'ed61.jpg', id: 1 },
-    { title: 'Issue #60', date:'2017-01-24', desc:'Mengulik Standarisasi Kurikulum Syariah', cover: 'ed60.jpg', id: 2 }
+    { title: 'Issue #60', date:'2017-01-24', desc:'Mengulik Standarisasi Kurikulum Syariah', cover: 'ed60.jpg', id: 2 },
+    { title: 'Issue #59', date:'2016-12-24', desc:'Jurus Memperkuat Kebijakan Moneter', cover: 'ed59.jpg', id: 3 }
   ];
 })
 
