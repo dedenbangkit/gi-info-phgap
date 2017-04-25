@@ -400,6 +400,17 @@
 
 /*ipad*/
 @media screen and (device-aspect-ratio: 3/4) {
+	.img-ipad{
+		max-width: 80%;
+	}
+	.page-head{
+		font-size: 60px;
+    line-height: 60px;
+	}
+	.page-head-ctn{
+		font-size: 80px;
+		line-height: 80px;
+	}
 	p{
 		font-size: 20px;
 	}
@@ -433,7 +444,7 @@
 	}
 
 	.contributor-list{
-		font-size:15px;
+		font-size:18px;
 	}
 
 	.contributor-note{
@@ -450,8 +461,8 @@
 	}
 
 	.content-text-block{
-	  font-size: 18px;
-		padding: 20px;
+	  font-size: 22px;
+		padding: 24px;
 	}
 
 	.content-author{
@@ -462,12 +473,21 @@
 		margin-top: 16px;
 	}
 
+	.title-alternative {
+    font-family: 'gabo-drive';
+    color: #fff;
+    font-size: 60px;
+    line-height: 50px;
+	}
+	.subtitle-alternative{
+		font-size: 22px;
+	}
 
 	.title-page-two{
 		font-family:'AntennaCond';
-		font-size:30px;
+		font-size:35px;
 		font-weight:100;
-		line-height:30px;
+		line-height:35px;
 	}
 
 	.title-page-two-line-two{
@@ -487,7 +507,7 @@
 		z-index:1
 	}
 
-	.hidden-tablet{
+	.hidden-xs{
 		display: none;
 	}
 
@@ -629,6 +649,67 @@
 	}
 }
 
+/*Galaxy s5*/
+@media screen and (device-aspect-ratio: 360/640){
+	p{
+		font-size: 14px;
+	}
+	.page-menu{
+		font-family: 'Antenna';
+		font-size:24px;
+		font-weight: 600;
+		color:#222;
+		margin-left: 15px;
+	}
+
+	.page-menu-nu{
+		font-family: 'AntennaCond';
+		font-size:12px;
+		color:#888;
+		margin-left: 27px;
+		display: block;
+	}
+
+	.content-text-no-indent{
+		line-height: normal;
+	  font-family: 'pt-sans';
+	  font-size: 12px;
+	}
+
+	.content-text{
+		line-height: normal;
+		text-indent: 15px;
+	  font-family: 'pt-sans';
+	  font-size: 12px;
+	}
+
+	.content-text-block{
+		line-height: normal;
+	  font-family: 'pt-sans';
+		color: #fff;
+	  font-size: 11px;
+		background-color: #7e563e;
+		padding: 10px;
+	}
+
+	.content-author{
+		font-family: 'Blackswords'
+		color:#000;
+		font-size: 11px;
+	}
+	.content-author-sub{
+		font-family: 'pt-sans';
+		color:#000;
+		font-size: 11px;
+		text-align: center;
+		margin-top: 8px;
+	}
+
+	.title-page-cover-second{
+		font-size: 10px;
+	}
+}
+
 @media screen and (device-aspect-ratio: 1280/720) and (orientation : landscape) {
 	.hidden-sm{
 		display: none;
@@ -664,7 +745,7 @@
 		font-family: 'AntennaCond';
 		font-size: 30px;
 		position: fixed;
-		
+
 	}
 	.page-menu{
 		font-size:20px;
