@@ -191,7 +191,7 @@
 
 
 /*landscape*/
-@media screen and (orientation : landscape){
+@media only screen and (orientation : landscape){
 	.tirta{
 		width:150px;
 		position:absolute;
@@ -221,14 +221,14 @@
 
 }
 
-@media screen and (orientation : potrait){
+@media only screen and (orientation : potrait){
 	.subtitle-alternative-tablet{
 		display: none;
 	}
 }
 
 /*iphone5*/
-@media screen and (device-aspect-ratio: 320/568) {
+@media only screen and (device-aspect-ratio: 320/568) {
 	.contributor{
 		font-family: 'AntennaCond';
 		font-size:8px;
@@ -322,7 +322,7 @@
 
 
 /*iphone6*/
-@media screen and (device-aspect-ratio: 375/667) {
+@media only screen and (device-aspect-ratio: 375/667) {
 	.page-menu{
 		font-family: 'Antenna';
 		font-size:15px;
@@ -406,6 +406,9 @@
 	.hidden-sm{
 		display: block;
 	}
+	.hidden-xs{
+		display: none;
+	}
 	p{
 		font-size: 14px;
 	}
@@ -462,7 +465,7 @@
 }
 
 /*ipad*/
-@media screen and (device-aspect-ratio: 3/4) {
+@media only screen and (device-aspect-ratio: 3/4) {
 	.img-ipad{
 		max-width: 80%;
 	}
@@ -576,7 +579,7 @@
 }
 
 /*ipad Mini*/
-@media screen and (min-device-width: 768px) and (max-device-height: 1024px) {
+@media only screen and (min-device-width: 768px) and (max-device-height: 1024px) {
 	.img-ipad{
 		max-width: 80%;
 	}
@@ -690,7 +693,7 @@
 }
 
 /*ipad Pro*/
-@media screen and (min-device-width: 1024px) and (max-device-height: 1366px) {
+@media only screen and (min-device-width: 1024px) and (max-device-height: 1366px) {
 	.img-ipad{
 		max-width: 80%;
 	}
